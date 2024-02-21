@@ -1,0 +1,29 @@
+First of all, i use app.coomponent as my Ag-grid demo file.
+
+
+
+Ag-grid and slick-grid are both javascript based and client-side grid, so compare with two different grid libraries, 
+Ag-grid is obviously much more easy to use and focusing to industry more, 
+which Slick-grid has more fexibility because its an fully open source library, 
+Ag-grid has no dependency but Slick-grid depends on jQuery,
+Ag-grid is younger than Slick-grid but only two years difference. 
+
+For the manual(document), Ag-grid and Slick-grid both has a complete tutorial that teach user step by step.
+For the maintainace, Ag-grid undoubtedly maintain by the company so company can give long-term and constantly support to user, but in Slick-grid which it is an open-source, so creater and community not a paid position so maintance is depends on the creater and activity level on community. 
+For the popularity, from the chart i support in the folder, Ag-grid is always famous than Slick-grid. //src = ./Grid_compare.png
+For the security, both products are libaray so the security issues in most situation is depends on yourself which is your security policy of your database,
+and Ag-grid recommend user can use CSP with their grid library and Using expressions instead of functions is an option, like anyother website people should doing security vulnerbility testing before deploy the updates. 
+user can use unsafe-inline in CSP for angular framework website. Bue open-source code means everyone can see and analyze the code to find the vulnerability. 
+
+For the privacy, Ag-grid may process the following categories of personal data about user, such as communication data, customer data, user data, technical data, marketing data and sensitive data when user provide the data directly (for example of filling the form), 
+and because Slick-grid is open-source so no one will have any of the information about the user.
+
+For the Theme, Ag-grid has more dedicated theme than Slick-grid but most of the advanced themes of Ag-grid is pay-to-used (enterprise edition). 
+For the license, Ag-grid and Slick-grid both using MIT License. 
+
+Theres more difference, Ag-grid can be using neither in Angular but also in Reactjs and easy to import and export even CSV file for further analyse.
+Slick-grid users do not need to depends on supplier, users can create their own features based on the source code. 
+
+In the research of both famous angular grid library i also found another grid library called: angular-ui-grid that getting famous during the past three years. 
+
+And in my opinion, Slick-grid has more flexibility and creation so user can customized what they want. and if you want to have a quick and stable library Ag-grid is your best choice.
